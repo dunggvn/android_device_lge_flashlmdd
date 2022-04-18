@@ -24,13 +24,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/lge/flashlmdd/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifiers
 
-PRODUCT_NAME := aosp_flashlmdd
+PRODUCT_NAME := arrow_flashlmdd
 PRODUCT_DEVICE := flashlmdd
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
