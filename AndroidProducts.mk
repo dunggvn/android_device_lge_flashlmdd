@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aosp_flashlmdd.mk
+    $(LOCAL_DIR)/blaze_flashlmdd.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_flashlmdd-userdebug \
-    aosp_flashlmdd-eng \
-    aosp_flashlmdd-user
+    blaze_flashlmdd-userdebug \
+    blaze_flashlmdd-eng \
+    blaze_flashlmdd-user
