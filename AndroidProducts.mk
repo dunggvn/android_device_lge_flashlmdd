@@ -10,4 +10,5 @@ PRODUCT_MAKEFILES += \
 COMMON_LUNCH_CHOICES := \
     lineage_flashlmdd-user \
     lineage_flashlmdd-userdebug \
-    lineage_flashlmdd-eng
+    lineage_flashlmdd-eng \
+    lineage_flashlmdd-bp1a-user
